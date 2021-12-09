@@ -1,5 +1,4 @@
 import argparse
-import re
 import RNA
 import localcider
 from Bio.Seq import Seq
