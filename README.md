@@ -8,15 +8,23 @@ To run this code, you will need working installations of:
 1. hmmer
 2. RScape
 3. python3 and packages:
+
   a. argparse
+  
   b. os
+  
   c. datetime
+  
   d. pandas
-  e. re
+  
   f. shutil
+  
   g. json
+  
   h. RNA (python wrapper for ViennaRNA)
+  
   i. localcider
+  
   j. Bio.Seq (I used Bioconda for this)
 
 Any recent/ stable release should work.
