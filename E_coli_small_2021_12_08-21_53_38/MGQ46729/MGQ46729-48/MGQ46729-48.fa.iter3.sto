@@ -1,0 +1,35 @@
+# STOCKHOLM 1.0
+#=GF ID MGQ46729
+#=GF AU nhmmer (HMMER 3.3.2)
+
+#=GS NZ_SROS01000162.1/2149-2050   DE [subseq from] Escherichia coli strain KCJK7150 NODE_162_length_2380_cov_4.251664, whole genome shotgun sequence
+#=GS NZ_SRVT01000070.1/435-534     DE [subseq from] Escherichia coli strain KCJK8061 NODE_82_length_2583_cov_10.035831, whole genome shotgun sequence
+#=GS NZ_SRVY01000127.1/2149-2050   DE [subseq from] Escherichia coli strain KCJK8081 NODE_127_length_2392_cov_13.025166, whole genome shotgun sequence
+#=GS NZ_SRWN01000097.1/2149-2050   DE [subseq from] Escherichia coli strain KCJK8315 NODE_97_length_4441_cov_18.146963, whole genome shotgun sequence
+#=GS NZ_SRWU01000078.1/1112-1211   DE [subseq from] Escherichia coli strain KCJK8373 NODE_78_length_4275_cov_16.640791, whole genome shotgun sequence
+#=GS NZ_RROI01000075.1/2071-1972   DE [subseq from] Escherichia coli strain FWSEC0413 FWSEC0413_contig00080, whole genome shotgun sequence
+#=GS NZ_RZCN01000066.1/3120-3021   DE [subseq from] Escherichia coli strain URMC_172 NODE_66_length_4009_cov_30.324833, whole genome shotgun sequence
+#=GS NZ_RZCP01000028.1/54728-54827 DE [subseq from] Escherichia coli strain URMC_174 NODE_28_length_56914_cov_18.651698, whole genome shotgun sequence
+#=GS NZ_RZDS01000029.1/2187-2088   DE [subseq from] Escherichia coli strain URMC_26 NODE_29_length_56525_cov_19.490283, whole genome shotgun sequence
+
+NZ_SROS01000162.1/2149-2050           GTACGGCGTCCTATTGTTCACGATGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_SROS01000162.1/2149-2050   PP 69***********************************************************************************************986
+NZ_SRVT01000070.1/435-534             GTACGGCGTCCTATTGTTCACGATGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_SRVT01000070.1/435-534     PP 69***********************************************************************************************986
+NZ_SRVY01000127.1/2149-2050           GTACGGCGTCCTATTGTTCACGATGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_SRVY01000127.1/2149-2050   PP 69***********************************************************************************************986
+NZ_SRWN01000097.1/2149-2050           GTACGGCGTCCTATTGTTCACGATGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_SRWN01000097.1/2149-2050   PP 69***********************************************************************************************986
+NZ_SRWU01000078.1/1112-1211           GTACGGCGTCCTATTGTTCACGATGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_SRWU01000078.1/1112-1211   PP 69***********************************************************************************************986
+NZ_RROI01000075.1/2071-1972           GTACGGCGTCCTATTGTTCACGGCGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAACCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_RROI01000075.1/2071-1972   PP 69***********************************************************************************************986
+NZ_RZCN01000066.1/3120-3021           GTACGGCGTCCTATTGTTCACGGCGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAATCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_RZCN01000066.1/3120-3021   PP 69***********************************************************************************************996
+NZ_RZCP01000028.1/54728-54827         GTACGGCGTCCTATTGTTCACGGCGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAATCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_RZCP01000028.1/54728-54827 PP 69***********************************************************************************************996
+NZ_RZDS01000029.1/2187-2088           GTACGGCGTCCTATTGTTCACGGCGGTAATGCACCAGCCAGTATTGGCTATCGTAGTGATAACCGTGTAATCTGCCGCCGCATCGCGTATCTAATGTTCA
+#=GR NZ_RZDS01000029.1/2187-2088   PP 69***********************************************************************************************996
+#=GC PP_cons                          69***********************************************************************************************986
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

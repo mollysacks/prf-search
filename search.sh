@@ -70,7 +70,6 @@ find_features () {
 					mkdir ${loc}/CaCoFold
 					cd ${loc}/CaCoFold
 					${rscape_path} --fold ${path_to_prf_search}/${seq}.iter3.sto &> stdout
-					pwd
 					cp *.fold.sto ${path_to_prf_search}/${loc}
 					cd ..
 					

@@ -1,0 +1,953 @@
+# nhmmer :: search a DNA model, alignment, or sequence against a DNA database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query file:                      E_coli_small_2021_12_08-21_53_38/MGQ46741/MGQ46741-747/MGQ46741-747.fa
+# target sequence database:        /Users/mollysacks/thesis/bacteria.1236.1.genomic.fna
+# output directed to file:         E_coli_small_2021_12_08-21_53_38/MGQ46741/MGQ46741-747/MGQ46741-747.fa.txt
+# MSA of all hits saved to file:   E_coli_small_2021_12_08-21_53_38/MGQ46741/MGQ46741-747/MGQ46741-747.fa.sto
+# number of worker threads:        2
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       MGQ46741  [M=100]
+Scores for complete hits:
+    E-value  score  bias  Sequence              start    end  Description
+    ------- ------ -----  --------              -----  -----  -----------
+    1.8e-22   85.4   5.1  NZ_RROI01000025.1     70368  70465 Escherichia coli strain FWSEC0413 FWSEC0413_contig00026,
+    1.8e-22   85.4   5.1  NZ_SKDC01000002.1     60869  60966 Escherichia coli strain 2015-1-136G NODE_2_length_228087
+    1.8e-22   85.4   5.1  NZ_SKDL01000008.1     60710  60807 Escherichia coli strain 2015-1-120H NODE_8_length_213550
+    1.8e-22   85.4   5.1  NZ_SKDN01000008.1     60869  60966 Escherichia coli strain 2015-1-113F NODE_8_length_216698
+    1.8e-22   85.4   5.1  NZ_SKDP01000008.1     60869  60966 Escherichia coli strain 2015-1-105B NODE_8_length_212689
+    1.8e-22   85.4   5.1  NZ_SKDS01000004.1     61238  61335 Escherichia coli strain 2014-5-277B NODE_4_length_217159
+    1.8e-22   85.4   5.1  NZ_SKDU01000005.1    151943 151846 Escherichia coli strain 2013-3-279D NODE_5_length_213210
+    1.8e-22   85.4   5.1  NZ_SPAA01000006.1     60710  60807 Escherichia coli strain 2015-1-110A NODE_6_length_213610
+    1.8e-22   85.4   5.1  NZ_SPAB01000007.1     60710  60807 Escherichia coli strain 2015-1-107C NODE_7_length_213648
+    1.8e-22   85.4   5.1  NZ_SPAF01000010.1     79565  79468 Escherichia coli strain 2015-1-97B NODE_10_length_110235
+    1.8e-22   85.4   5.1  NZ_SPAN01000007.1     60710  60807 Escherichia coli strain 2015-1-53A1 NODE_7_length_213648
+    1.8e-22   85.4   5.1  NZ_SPAP01000010.1    152939 152842 Escherichia coli strain 2015-1-48G NODE_10_length_183763
+    1.8e-22   85.4   5.1  NZ_SPAQ01000003.1    154335 154238 Escherichia coli strain 2014-5-288A NODE_3_length_215572
+    1.8e-22   85.4   5.1  NZ_SPAS01000006.1     61238  61335 Escherichia coli strain 2014-5-78J NODE_6_length_217160_
+    1.8e-22   85.4   5.1  NZ_SPAV01000004.1     60710  60807 Escherichia coli strain 2013-3-86C NODE_4_length_216529_
+    1.8e-22   85.4   5.1  NZ_SPKB01000004.1     30821  30918 Escherichia coli strain 2014-5-921H NODE_4_length_183749
+    1.8e-22   85.4   5.1  NZ_SPKG01000008.1     61134  61231 Escherichia coli strain 2015-1-140F NODE_8_length_217066
+    8.9e-13   55.1   4.9  NZ_RZCR01000002.1    161300 161204 Escherichia coli strain URMC_176 NODE_2_length_567354_co
+    8.9e-13   55.1   4.9  NZ_SSTP01000014.1    457978 458074 Escherichia coli strain E767 sequence14, whole genome sh
+    1.2e-12   54.7   3.8  NZ_RZCN01000025.1     66683  66779 Escherichia coli strain URMC_172 NODE_25_length_78737_co
+    1.2e-12   54.7   3.8  NZ_RZCP01000011.1     10961  10865 Escherichia coli strain URMC_174 NODE_11_length_161211_c
+    1.2e-12   54.7   3.8  NZ_RZDS01000018.1     91381  91477 Escherichia coli strain URMC_26 NODE_18_length_101494_co
+    5.2e-11   49.6   6.2  NZ_SROH01000002.1     37827  37923 Escherichia coli strain KCJK7298 NODE_2_length_337965_co
+    5.2e-11   49.6   6.2  NZ_SRVR01000009.1      4627   4723 Escherichia coli strain KCJK8056 NODE_9_length_118029_co
+    5.2e-11   49.6   6.2  NZ_SRWA01000015.1    122974 122878 Escherichia coli strain KCJK8104 NODE_15_length_127649_c
+    5.2e-11   49.6   6.2  NZ_SRWC01000055.1      4628   4724 Escherichia coli strain KCJK8124 NODE_55_length_30185_co
+    5.2e-11   49.6   6.2  NZ_SRWK01000011.1      4801   4897 Escherichia coli strain KCJK8198 NODE_11_length_127774_c
+    6.7e-11   49.3   5.7  NZ_QAFI01000026.1     53553  53649 Escherichia coli strain F448 NODE_26_length_72161_cov_12
+    6.7e-11   49.3   5.7  NZ_QAFK01000024.1     69892  69988 Escherichia coli strain IMP 133 NODE_24_length_83102_cov
+    6.7e-11   49.3   5.7  NZ_RRNG01000020.1     83614  83710 Escherichia coli strain FWSEC0382 FWSEC0382_contig00020,
+    6.7e-11   49.3   5.7  NZ_RRNO01000024.1     61524  61620 Escherichia coli strain FWSEC0390 FWSEC0390_contig00024,
+    6.7e-11   49.3   5.7  NZ_RROS01000014.1    108941 109037 Escherichia coli strain FWSEC0423 FWSEC0423_contig00014,
+    6.7e-11   49.3   5.7  NZ_SHIB01000036.1      9670   9574 Escherichia coli strain EC_59 NODE_36_length_41804_cov_2
+    6.7e-11   49.3   5.7  NZ_SRMX01000027.1     32551  32647 Escherichia coli strain BX1S14 NODE_27_length_42993_cov_
+    6.7e-11   49.3   5.7  NZ_SRNF01000034.1     32649  32745 Escherichia coli strain BX1S57 NODE_34_length_42167_cov_
+    6.7e-11   49.3   5.7  NZ_SRNM01000028.1      9678   9582 Escherichia coli strain BX2S26 NODE_28_length_42103_cov_
+    6.7e-11   49.3   5.7  NZ_SRNQ01000035.1     32426  32522 Escherichia coli strain BX2S46 NODE_35_length_41986_cov_
+    6.7e-11   49.3   5.7  NZ_SROC01000098.1      9331   9235 Escherichia coli strain KCJK7684 NODE_98_length_13129_co
+    6.7e-11   49.3   5.7  NZ_SROF01000073.1      4649   4745 Escherichia coli strain KCJK6780 NODE_73_length_13895_co
+    6.7e-11   49.3   5.7  NZ_SROL01000115.1     10339  10243 Escherichia coli strain KCJK7033 NODE_115_length_15090_c
+    6.7e-11   49.3   5.7  NZ_SRVT01000300.1     18478  18574 Escherichia coli strain KCJK8061 NODE_371_length_23060_c
+    6.7e-11   49.3   5.7  NZ_SRVV01000046.1      4769   4865 Escherichia coli strain KCJK8065 NODE_46_length_16915_co
+    6.7e-11   49.3   5.7  NZ_SRVY01000055.1     19850  19946 Escherichia coli strain KCJK8081 NODE_55_length_29637_co
+    6.7e-11   49.3   5.7  NZ_SRVZ01000017.1     84104  84200 Escherichia coli strain KCJK8103 NODE_17_length_95919_co
+    6.7e-11   49.3   5.7  NZ_SRWN01000056.1     19849  19945 Escherichia coli strain KCJK8315 NODE_56_length_29537_co
+    6.7e-11   49.3   5.7  NZ_SRWW01000067.1      9687   9591 Escherichia coli strain KCJK8397 NODE_67_length_14294_co
+    6.7e-11   49.3   5.7  NZ_SRWY01000050.1      4719   4815 Escherichia coli strain KCJK8354 NODE_50_length_16594_co
+    6.7e-11   49.3   5.7  NZ_UEEG01000012.1    123462 123558 Escherichia coli isolate ST410_CP-Ec16, whole genome sho
+    1.1e-09   45.4   4.4  NZ_SROS01000079.1      4554   4650 Escherichia coli strain KCJK7150 NODE_79_length_15267_co
+    1.1e-09   45.4   4.4  NZ_SRWU01000050.1     18470  18566 Escherichia coli strain KCJK8373 NODE_50_length_23042_co
+    1.5e-09   45.1   4.0  NZ_SRWD01000100.1      4646   4741 Escherichia coli strain KCJK8128 NODE_100_length_14848_c
+
+
+Annotation for each hit  (and alignments):
+>> NZ_RROI01000025.1  Escherichia coli strain FWSEC0413 FWSEC0413_contig00026, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     70368     70465 ..     70367     70466 ..     79802    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_RROI01000025.1 70368 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 70455
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_RROI01000025.1 70456 ATCACTGCTC 70465
+                          *******997 PP
+
+>> NZ_SKDC01000002.1  Escherichia coli strain 2015-1-136G NODE_2_length_228087_cov_33.6605_ID_19202, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60869     60966 ..     60868     60967 ..    228087    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SKDC01000002.1 60869 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60956
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SKDC01000002.1 60957 ATCACTGCTC 60966
+                          *******997 PP
+
+>> NZ_SKDL01000008.1  Escherichia coli strain 2015-1-120H NODE_8_length_213550_cov_35.6059_ID_18859, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60710     60807 ..     60709     60808 ..    213550    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SKDL01000008.1 60710 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60797
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SKDL01000008.1 60798 ATCACTGCTC 60807
+                          *******997 PP
+
+>> NZ_SKDN01000008.1  Escherichia coli strain 2015-1-113F NODE_8_length_216698_cov_51.021_ID_17811, whole genome shotgun
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60869     60966 ..     60868     60967 ..    216698    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SKDN01000008.1 60869 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60956
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SKDN01000008.1 60957 ATCACTGCTC 60966
+                          *******997 PP
+
+>> NZ_SKDP01000008.1  Escherichia coli strain 2015-1-105B NODE_8_length_212689_cov_39.1369_ID_18363, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60869     60966 ..     60868     60967 ..    212689    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SKDP01000008.1 60869 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60956
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SKDP01000008.1 60957 ATCACTGCTC 60966
+                          *******997 PP
+
+>> NZ_SKDS01000004.1  Escherichia coli strain 2014-5-277B NODE_4_length_217159_cov_34.4725_ID_24984, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     61238     61335 ..     61237     61336 ..    217159    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SKDS01000004.1 61238 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 61325
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SKDS01000004.1 61326 ATCACTGCTC 61335
+                          *******997 PP
+
+>> NZ_SKDU01000005.1  Escherichia coli strain 2013-3-279D NODE_5_length_213210_cov_47.4952_ID_25483, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..    151943    151846 ..    151944    151845 ..    213210    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagat
+  NZ_SKDU01000005.1 151943 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGAT 151858
+                           7899********************************************************************************** PP
+
+           MGQ46741     88 aaatcactgctc 99    
+                           aaatcactgctc
+  NZ_SKDU01000005.1 151857 AAATCACTGCTC 151846
+                           *********997 PP
+
+>> NZ_SPAA01000006.1  Escherichia coli strain 2015-1-110A NODE_6_length_213610_cov_48.3645_ID_20537, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60710     60807 ..     60709     60808 ..    213610    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAA01000006.1 60710 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60797
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAA01000006.1 60798 ATCACTGCTC 60807
+                          *******997 PP
+
+>> NZ_SPAB01000007.1  Escherichia coli strain 2015-1-107C NODE_7_length_213648_cov_38.7005_ID_18101, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60710     60807 ..     60709     60808 ..    213648    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAB01000007.1 60710 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60797
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAB01000007.1 60798 ATCACTGCTC 60807
+                          *******997 PP
+
+>> NZ_SPAF01000010.1  Escherichia coli strain 2015-1-97B NODE_10_length_110235_cov_17.2774_ID_32500, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     79565     79468 ..     79566     79467 ..    110235    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAF01000010.1 79565 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 79478
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAF01000010.1 79477 ATCACTGCTC 79468
+                          *******997 PP
+
+>> NZ_SPAN01000007.1  Escherichia coli strain 2015-1-53A1 NODE_7_length_213648_cov_47.9175_ID_18395, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60710     60807 ..     60709     60808 ..    213648    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAN01000007.1 60710 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60797
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAN01000007.1 60798 ATCACTGCTC 60807
+                          *******997 PP
+
+>> NZ_SPAP01000010.1  Escherichia coli strain 2015-1-48G NODE_10_length_183763_cov_44.2454_ID_28679, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..    152939    152842 ..    152940    152841 ..    183763    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagat
+  NZ_SPAP01000010.1 152939 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGAT 152854
+                           7899********************************************************************************** PP
+
+           MGQ46741     88 aaatcactgctc 99    
+                           aaatcactgctc
+  NZ_SPAP01000010.1 152853 AAATCACTGCTC 152842
+                           *********997 PP
+
+>> NZ_SPAQ01000003.1  Escherichia coli strain 2014-5-288A NODE_3_length_215572_cov_33.8669_ID_23573, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..    154335    154238 ..    154336    154237 ..    215572    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagat
+  NZ_SPAQ01000003.1 154335 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGAT 154250
+                           7899********************************************************************************** PP
+
+           MGQ46741     88 aaatcactgctc 99    
+                           aaatcactgctc
+  NZ_SPAQ01000003.1 154249 AAATCACTGCTC 154238
+                           *********997 PP
+
+>> NZ_SPAS01000006.1  Escherichia coli strain 2014-5-78J NODE_6_length_217160_cov_37.6134_ID_21487, whole genome shotgun
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     61238     61335 ..     61237     61336 ..    217160    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAS01000006.1 61238 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 61325
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAS01000006.1 61326 ATCACTGCTC 61335
+                          *******997 PP
+
+>> NZ_SPAV01000004.1  Escherichia coli strain 2013-3-86C NODE_4_length_216529_cov_34.4394_ID_18449, whole genome shotgun
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     60710     60807 ..     60709     60808 ..    216529    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPAV01000004.1 60710 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 60797
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPAV01000004.1 60798 ATCACTGCTC 60807
+                          *******997 PP
+
+>> NZ_SPKB01000004.1  Escherichia coli strain 2014-5-921H NODE_4_length_183749_cov_50.4288_ID_35112, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     30821     30918 ..     30820     30919 ..    183749    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPKB01000004.1 30821 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 30908
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPKB01000004.1 30909 ATCACTGCTC 30918
+                          *******997 PP
+
+>> NZ_SPKG01000008.1  Escherichia coli strain 2015-1-140F NODE_8_length_217066_cov_35.9116_ID_19067, whole genome shotgu
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   85.4   5.1   1.8e-22         2        99 ..     61134     61231 ..     61133     61232 ..    217066    0.98
+
+  Alignment:
+  score: 85.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          caaccaaatcacaaaacgaccagtgtaccgacggttttaa gtcagctcttcgttttataccgatgaaacccttatcgacgaagataa
+  NZ_SPKG01000008.1 61134 CAACCAAATCACAAAACGACCAGTGTACCGACGGTTTTAAAGTCAGCTCTTCGTTTTATACCGATGAAACCCTTATCGACGAAGATAA 61221
+                          7899************************************************************************************ PP
+
+           MGQ46741    90 atcactgctc 99   
+                          atcactgctc
+  NZ_SPKG01000008.1 61222 ATCACTGCTC 61231
+                          *******997 PP
+
+>> NZ_RZCR01000002.1  Escherichia coli strain URMC_176 NODE_2_length_567354_cov_17.208955, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   55.1   4.9   8.9e-13         2        98 ..    161300    161204 ..    161301    161202 ..    567354    0.96
+
+  Alignment:
+  score: 55.1 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           caac aaatc caaaa gaccagtgtaccgacgg tttaa gtcagctc tcgttttataccga  aaac  t  t ga gaagat
+  NZ_RZCR01000002.1 161300 CAACAAAATCGCAAAATGACCAGTGTACCGACGGATTTAAGGTCAGCTCCTCGTTTTATACCGAAAAAACGTTGGTTGAAGAAGAT 161215
+                           788999******************************************************************************** PP
+
+           MGQ46741     88 aaatcactgct 98    
+                           aaa ca tg t
+  NZ_RZCR01000002.1 161214 AAAGCATTGTT 161204
+                           ****9998865 PP
+
+>> NZ_SSTP01000014.1  Escherichia coli strain E767 sequence14, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   55.1   4.9   8.9e-13         2        98 ..    457978    458074 ..    457977    458076 ..    609425    0.96
+
+  Alignment:
+  score: 55.1 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           caac aaatc caaaa gaccagtgtaccgacgg tttaa gtcagctc tcgttttataccga  aaac  t  t ga gaagat
+  NZ_SSTP01000014.1 457978 CAACAAAATCGCAAAATGACCAGTGTACCGACGGATTTAAGGTCAGCTCCTCGTTTTATACCGAAAAAACGTTGGTTGAAGAAGAT 458063
+                           788999******************************************************************************** PP
+
+           MGQ46741     88 aaatcactgct 98    
+                           aaa ca tg t
+  NZ_SSTP01000014.1 458064 AAAGCATTGTT 458074
+                           ****9998865 PP
+
+>> NZ_RZCN01000025.1  Escherichia coli strain URMC_172 NODE_25_length_78737_cov_20.498155, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.7   3.8   1.2e-12         2        98 ..     66683     66779 ..     66682     66781 ..     78737    0.96
+
+  Alignment:
+  score: 54.7 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gaccagtg accgacgg tttaa gtcagctc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_RZCN01000025.1 66683 CGACAAAATCACAAAATGACCAGTGCACCGACGGATTTAAGGTCAGCTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 66770
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_RZCN01000025.1 66771 AGCATTGTT 66779
+                          **9999865 PP
+
+>> NZ_RZCP01000011.1  Escherichia coli strain URMC_174 NODE_11_length_161211_cov_17.958196, whole genome shotgun sequenc
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.7   3.8   1.2e-12         2        98 ..     10961     10865 ..     10962     10863 ..    161211    0.96
+
+  Alignment:
+  score: 54.7 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gaccagtg accgacgg tttaa gtcagctc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_RZCP01000011.1 10961 CGACAAAATCACAAAATGACCAGTGCACCGACGGATTTAAGGTCAGCTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 10874
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_RZCP01000011.1 10873 AGCATTGTT 10865
+                          **9999865 PP
+
+>> NZ_RZDS01000018.1  Escherichia coli strain URMC_26 NODE_18_length_101494_cov_18.762388, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   54.7   3.8   1.2e-12         2        98 ..     91381     91477 ..     91380     91479 ..    101494    0.96
+
+  Alignment:
+  score: 54.7 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gaccagtg accgacgg tttaa gtcagctc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_RZDS01000018.1 91381 CGACAAAATCACAAAATGACCAGTGCACCGACGGATTTAAGGTCAGCTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 91468
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_RZDS01000018.1 91469 AGCATTGTT 91477
+                          **9999865 PP
+
+>> NZ_SROH01000002.1  Escherichia coli strain KCJK7298 NODE_2_length_337965_cov_16.550888, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.6   6.2   5.2e-11         2        98 ..     37827     37923 ..     37826     37925 ..    337919    0.95
+
+  Alignment:
+  score: 49.6 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataa
+  NZ_SROH01000002.1 37827 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAA 37914
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SROH01000002.1 37915 AGCATTGTT 37923
+                          *99998865 PP
+
+>> NZ_SRVR01000009.1  Escherichia coli strain KCJK8056 NODE_9_length_118029_cov_19.075452, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.6   6.2   5.2e-11         2        98 ..      4627      4723 ..      4626      4725 ..    118029    0.95
+
+  Alignment:
+  score: 49.6 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataaa 
+  NZ_SRVR01000009.1 4627 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAAAG 4716
+                         5678899**********************************************************************************9 PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRVR01000009.1 4717 CATTGTT 4723
+                         9998865 PP
+
+>> NZ_SRWA01000015.1  Escherichia coli strain KCJK8104 NODE_15_length_127649_cov_14.993123, whole genome shotgun sequenc
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.6   6.2   5.2e-11         2        98 ..    122974    122878 ..    122975    122876 ..    127649    0.95
+
+  Alignment:
+  score: 49.6 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagat
+  NZ_SRWA01000015.1 122974 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGAT 122889
+                           5678899******************************************************************************* PP
+
+           MGQ46741     88 aaatcactgct 98    
+                           aaa ca tg t
+  NZ_SRWA01000015.1 122888 AAAGCATTGTT 122878
+                           ***99998865 PP
+
+>> NZ_SRWC01000055.1  Escherichia coli strain KCJK8124 NODE_55_length_30185_cov_19.217380, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.6   6.2   5.2e-11         2        98 ..      4628      4724 ..      4627      4726 ..     30185    0.95
+
+  Alignment:
+  score: 49.6 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataaa 
+  NZ_SRWC01000055.1 4628 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAAAG 4717
+                         5678899**********************************************************************************9 PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRWC01000055.1 4718 CATTGTT 4724
+                         9998865 PP
+
+>> NZ_SRWK01000011.1  Escherichia coli strain KCJK8198 NODE_11_length_127774_cov_19.224721, whole genome shotgun sequenc
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.6   6.2   5.2e-11         2        98 ..      4801      4897 ..      4800      4899 ..    127774    0.95
+
+  Alignment:
+  score: 49.6 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataaa 
+  NZ_SRWK01000011.1 4801 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAAAG 4890
+                         5678899**********************************************************************************9 PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRWK01000011.1 4891 CATTGTT 4897
+                         9998865 PP
+
+>> NZ_QAFI01000026.1  Escherichia coli strain F448 NODE_26_length_72161_cov_121.690119_pilon, whole genome shotgun seque
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     53553     53649 ..     53552     53651 ..     72161    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_QAFI01000026.1 53553 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 53640
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_QAFI01000026.1 53641 AGCATTGTT 53649
+                          **9999865 PP
+
+>> NZ_QAFK01000024.1  Escherichia coli strain IMP 133 NODE_24_length_83102_cov_83.046050_pilon, whole genome shotgun seq
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     69892     69988 ..     69891     69990 ..     83102    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_QAFK01000024.1 69892 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 69979
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_QAFK01000024.1 69980 AGCATTGTT 69988
+                          **9999865 PP
+
+>> NZ_RRNG01000020.1  Escherichia coli strain FWSEC0382 FWSEC0382_contig00020, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     83614     83710 ..     83613     83712 ..     95441    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_RRNG01000020.1 83614 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 83701
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_RRNG01000020.1 83702 AGCATTGTT 83710
+                          **9999865 PP
+
+>> NZ_RRNO01000024.1  Escherichia coli strain FWSEC0390 FWSEC0390_contig00024, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     61524     61620 ..     61523     61622 ..     73526    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_RRNO01000024.1 61524 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 61611
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_RRNO01000024.1 61612 AGCATTGTT 61620
+                          **9999865 PP
+
+>> NZ_RROS01000014.1  Escherichia coli strain FWSEC0423 FWSEC0423_contig00014, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..    108941    109037 ..    108940    109039 ..    120328    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagat
+  NZ_RROS01000014.1 108941 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGAT 109026
+                           5678899******************************************************************************* PP
+
+           MGQ46741     88 aaatcactgct 98    
+                           aaa ca tg t
+  NZ_RROS01000014.1 109027 AAAGCATTGTT 109037
+                           ****9999865 PP
+
+>> NZ_SHIB01000036.1  Escherichia coli strain EC_59 NODE_36_length_41804_cov_22.753661, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      9670      9574 ..      9671      9572 ..     41804    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SHIB01000036.1 9670 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 9581
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SHIB01000036.1 9580 CATTGTT 9574
+                         9999865 PP
+
+>> NZ_SRMX01000027.1  Escherichia coli strain BX1S14 NODE_27_length_42993_cov_119.407, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     32551     32647 ..     32550     32649 ..     42993    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRMX01000027.1 32551 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 32638
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRMX01000027.1 32639 AGCATTGTT 32647
+                          **9999865 PP
+
+>> NZ_SRNF01000034.1  Escherichia coli strain BX1S57 NODE_34_length_42167_cov_165.848, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     32649     32745 ..     32648     32747 ..     42167    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRNF01000034.1 32649 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 32736
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRNF01000034.1 32737 AGCATTGTT 32745
+                          **9999865 PP
+
+>> NZ_SRNM01000028.1  Escherichia coli strain BX2S26 NODE_28_length_42103_cov_102.835, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      9678      9582 ..      9679      9580 ..     42103    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SRNM01000028.1 9678 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 9589
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRNM01000028.1 9588 CATTGTT 9582
+                         9999865 PP
+
+>> NZ_SRNQ01000035.1  Escherichia coli strain BX2S46 NODE_35_length_41986_cov_111.252, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     32426     32522 ..     32425     32524 ..     41986    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRNQ01000035.1 32426 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 32513
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRNQ01000035.1 32514 AGCATTGTT 32522
+                          **9999865 PP
+
+>> NZ_SROC01000098.1  Escherichia coli strain KCJK7684 NODE_98_length_13129_cov_6.521151, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      9331      9235 ..      9332      9233 ..     13129    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SROC01000098.1 9331 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 9242
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SROC01000098.1 9241 CATTGTT 9235
+                         9999865 PP
+
+>> NZ_SROF01000073.1  Escherichia coli strain KCJK6780 NODE_73_length_13895_cov_18.244770, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      4649      4745 ..      4648      4747 ..     13895    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SROF01000073.1 4649 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 4738
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SROF01000073.1 4739 CATTGTT 4745
+                         9999865 PP
+
+>> NZ_SROL01000115.1  Escherichia coli strain KCJK7033 NODE_115_length_15090_cov_6.095101, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     10339     10243 ..     10340     10241 ..     15090    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SROL01000115.1 10339 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 10252
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SROL01000115.1 10251 AGCATTGTT 10243
+                          **9999865 PP
+
+>> NZ_SRVT01000300.1  Escherichia coli strain KCJK8061 NODE_371_length_23060_cov_13.329002, whole genome shotgun sequenc
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     18478     18574 ..     18477     18576 ..     23060    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRVT01000300.1 18478 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 18565
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRVT01000300.1 18566 AGCATTGTT 18574
+                          **9999865 PP
+
+>> NZ_SRVV01000046.1  Escherichia coli strain KCJK8065 NODE_46_length_16915_cov_14.831844, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      4769      4865 ..      4768      4867 ..     16915    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SRVV01000046.1 4769 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 4858
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRVV01000046.1 4859 CATTGTT 4865
+                         9999865 PP
+
+>> NZ_SRVY01000055.1  Escherichia coli strain KCJK8081 NODE_55_length_29637_cov_16.033277, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     19850     19946 ..     19849     19948 ..     29637    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRVY01000055.1 19850 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 19937
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRVY01000055.1 19938 AGCATTGTT 19946
+                          **9999865 PP
+
+>> NZ_SRVZ01000017.1  Escherichia coli strain KCJK8103 NODE_17_length_95919_cov_14.427270, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     84104     84200 ..     84103     84202 ..     95919    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRVZ01000017.1 84104 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 84191
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRVZ01000017.1 84192 AGCATTGTT 84200
+                          **9999865 PP
+
+>> NZ_SRWN01000056.1  Escherichia coli strain KCJK8315 NODE_56_length_29537_cov_22.714077, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..     19849     19945 ..     19848     19947 ..     29537    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataa
+  NZ_SRWN01000056.1 19849 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAA 19936
+                          5678899********************************************************************************* PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRWN01000056.1 19937 AGCATTGTT 19945
+                          **9999865 PP
+
+>> NZ_SRWW01000067.1  Escherichia coli strain KCJK8397 NODE_67_length_14294_cov_15.367756, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      9687      9591 ..      9688      9589 ..     14294    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SRWW01000067.1 9687 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 9598
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRWW01000067.1 9597 CATTGTT 9591
+                         9999865 PP
+
+>> NZ_SRWY01000050.1  Escherichia coli strain KCJK8354 NODE_50_length_16594_cov_8.960041, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..      4719      4815 ..      4718      4817 ..     16594    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa 
+  NZ_SRWY01000050.1 4719 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAG 4808
+                         5678899*********************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SRWY01000050.1 4809 CATTGTT 4815
+                         9999865 PP
+
+>> NZ_UEEG01000012.1  Escherichia coli isolate ST410_CP-Ec16, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   49.3   5.7   6.7e-11         2        98 ..    123462    123558 ..    123461    123560 ..    133246    0.95
+
+  Alignment:
+  score: 49.3 bits
+           MGQ46741      2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagat 87    
+                           c ac aaatcacaaaa gacca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagat
+  NZ_UEEG01000012.1 123462 CGACAAAATCACAAAATGACCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGAT 123547
+                           5678899******************************************************************************* PP
+
+           MGQ46741     88 aaatcactgct 98    
+                           aaa ca tg t
+  NZ_UEEG01000012.1 123548 AAAGCATTGTT 123558
+                           ****9999865 PP
+
+>> NZ_SROS01000079.1  Escherichia coli strain KCJK7150 NODE_79_length_15267_cov_6.323184, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   45.4   4.4   1.1e-09         2        98 ..      4554      4650 ..      4551      4652 ..     15267    0.95
+
+  Alignment:
+  score: 45.4 bits
+           MGQ46741    2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaat 91  
+                         c accaa    caaaacga ca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataaa 
+  NZ_SROS01000079.1 4554 CGACCAAGAGCCAAAACGATCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAAAG 4643
+                         567888888899****************************************************************************** PP
+
+           MGQ46741   92 cactgct 98  
+                         ca tg t
+  NZ_SROS01000079.1 4644 CATTGTT 4650
+                         9998865 PP
+
+>> NZ_SRWU01000050.1  Escherichia coli strain KCJK8373 NODE_50_length_23042_cov_17.161684, whole genome shotgun sequence
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   45.4   4.4   1.1e-09         2        98 ..     18470     18566 ..     18467     18568 ..     23042    0.95
+
+  Alignment:
+  score: 45.4 bits
+           MGQ46741     2 caaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataa 89   
+                          c accaa    caaaacga ca tg accgacgg tttaa gtcag tc tcgttttatac ga gaaac  t  t ga gaagataa
+  NZ_SRWU01000050.1 18470 CGACCAAGAGCCAAAACGATCAATGCACCGACGGATTTAAAGTCAGTTCCTCGTTTTATACTGAAGAAACGTTGGTTGAAGAAGATAA 18557
+                          567888888899**************************************************************************** PP
+
+           MGQ46741    90 atcactgct 98   
+                          a ca tg t
+  NZ_SRWU01000050.1 18558 AGCATTGTT 18566
+                          **9998865 PP
+
+>> NZ_SRWD01000100.1  Escherichia coli strain KCJK8128 NODE_100_length_14848_cov_12.129135, whole genome shotgun sequenc
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   45.1   4.0   1.5e-09         3        98 ..      4646      4741 ..      4642      4743 ..     14848    0.94
+
+  Alignment:
+  score: 45.1 bits
+           MGQ46741    3 aaccaaatcacaaaacgaccagtgtaccgacggttttaacgtcagctcttcgttttataccgatgaaacccttatcgacgaagataaatc 92  
+                          accaa    caaaacga ca tg accgacgg tttaa gtcag tc tc ttttataccga gaaac  t  t ga gaagataaa c
+  NZ_SRWD01000100.1 4646 GACCAAGAGCCAAAACGATCAATGCACCGACGGATTTAAAGTCAGTTCCTCCTTTTATACCGAAGAAACGTTGGTTGAAGAAGATAAAGC 4735
+                         677888888899*****************************************************************************9 PP
+
+           MGQ46741   93 actgct 98  
+                         a tg t
+  NZ_SRWD01000100.1 4736 ATTGTT 4741
+                         999865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (100 nodes)
+Target sequences:                      16163  (657507822 residues searched)
+Residues passing SSV filter:        23365801  (0.0355); expected (0.02)
+Residues passing bias filter:       22540987  (0.0343); expected (0.02)
+Residues passing Vit filter:         1105665  (0.00168); expected (0.003)
+Residues passing Fwd filter:           19951  (3.03e-05); expected (3e-05)
+Total number of hits:                     51  (7.55e-06)
+# CPU time: 9.81u 0.19s 00:00:10.00 Elapsed: 00:00:06.95
+# Mc/sec: 9453.82
+//
+# Alignment of 51 hits satisfying inclusion thresholds saved to: E_coli_small_2021_12_08-21_53_38/MGQ46741/MGQ46741-747/MGQ46741-747.fa.sto
+[ok]

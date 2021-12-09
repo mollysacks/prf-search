@@ -1,0 +1,11 @@
+
+# The predicted CaCoFold structure
+# BPAIRS observed to covary 1
+#
+#
+# Method Target_E-val [cov_min,cov_max] [FP | TP True Found | Sen PPV F] 
+# GTp    0.05         [-9.86,55.78]     [0 | 1 19 1 | 5.26 100.00 10.00] 
+#
+# in_fold in_given   left_pos       right_pos      score           E-value    substitutions      power
+#----------------------------------------------------------------------------------------------------------------
+*	~	        21	        22	55.78427	0.000223849	4		0.00

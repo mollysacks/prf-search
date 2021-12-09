@@ -1,0 +1,15 @@
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             E_coli_small_2021_12_08-21_53_38/MGQ46730/MGQ46730-252/MGQ46730-252.fa.sto
+# output HMM file:                  E_coli_small_2021_12_08-21_53_38/MGQ46730/MGQ46730-252/MGQ46730-252.fa.iter1.hmm
+# output directed to file:          E_coli_small_2021_12_08-21_53_38/MGQ46730/MGQ46730-252/MGQ46730-252.fa.iter1.hmm.txt
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen     W eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- ----- -------- ------ -----------
+1     MGQ46730               131   103   100   197     2.54  0.621 
+
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02

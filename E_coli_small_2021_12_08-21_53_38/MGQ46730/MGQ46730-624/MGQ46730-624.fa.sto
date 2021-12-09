@@ -1,0 +1,386 @@
+# STOCKHOLM 1.0
+#=GF ID MGQ46730
+#=GF AU nhmmer (HMMER 3.3.2)
+
+#=GS NZ_QAFI01000026.1/64313-64215   DE [subseq from] Escherichia coli strain F448 NODE_26_length_72161_cov_121.690119_pilon, whole genome shotgun sequence
+#=GS NZ_RRNG01000049.1/24057-23959   DE [subseq from] Escherichia coli strain FWSEC0382 FWSEC0382_contig00050, whole genome shotgun sequence
+#=GS NZ_RROS01000028.1/40125-40223   DE [subseq from] Escherichia coli strain FWSEC0423 FWSEC0423_contig00028, whole genome shotgun sequence
+#=GS NZ_RROS01000037.1/2723-2821     DE [subseq from] Escherichia coli strain FWSEC0423 FWSEC0423_contig00037, whole genome shotgun sequence
+#=GS NZ_RZCN01000025.1/76069-75971   DE [subseq from] Escherichia coli strain URMC_172 NODE_25_length_78737_cov_20.498155, whole genome shotgun sequence
+#=GS NZ_RZCP01000011.1/1575-1673     DE [subseq from] Escherichia coli strain URMC_174 NODE_11_length_161211_cov_17.958196, whole genome shotgun sequence
+#=GS NZ_RZDS01000018.1/100767-100669 DE [subseq from] Escherichia coli strain URMC_26 NODE_18_length_101494_cov_18.762388, whole genome shotgun sequence
+#=GS NZ_SRMX01000056.1/448-350       DE [subseq from] Escherichia coli strain BX1S14 NODE_56_length_503_cov_338.481, whole genome shotgun sequence
+#=GS NZ_SRNM01000017.1/126243-126145 DE [subseq from] Escherichia coli strain BX2S26 NODE_17_length_126283_cov_109.092, whole genome shotgun sequence
+#=GS NZ_SROC01000737.1/91-189        DE [subseq from] Escherichia coli strain KCJK7684 NODE_737_length_331_cov_4.328431, whole genome shotgun sequence
+#=GS NZ_SROF01000046.1/33653-33555   DE [subseq from] Escherichia coli strain KCJK6780 NODE_46_length_34115_cov_19.492350, whole genome shotgun sequence
+#=GS NZ_SROF01000185.1/91-189        DE [subseq from] Escherichia coli strain KCJK6780 NODE_185_length_255_cov_23.125000, whole genome shotgun sequence
+#=GS NZ_SROL01000346.1/165-67        DE [subseq from] Escherichia coli strain KCJK7033 NODE_346_length_1056_cov_4.742734, whole genome shotgun sequence
+#=GS NZ_SRVT01000086.1/321-223       DE [subseq from] Escherichia coli strain KCJK8061 NODE_101_length_573_cov_14.156951, whole genome shotgun sequence
+#=GS NZ_SRVT01000133.1/70-168        DE [subseq from] Escherichia coli strain KCJK8061 NODE_158_length_202_cov_37.786667, whole genome shotgun sequence
+#=GS NZ_SRVV01000040.1/3269-3367     DE [subseq from] Escherichia coli strain KCJK8065 NODE_40_length_29511_cov_13.991220, whole genome shotgun sequence
+#=GS NZ_SRVV01000056.1/2293-2391     DE [subseq from] Escherichia coli strain KCJK8065 NODE_56_length_4218_cov_13.191885, whole genome shotgun sequence
+#=GS NZ_SRVY01000084.1/3114-3212     DE [subseq from] Escherichia coli strain KCJK8081 NODE_84_length_12259_cov_13.331520, whole genome shotgun sequence
+#=GS NZ_SRVZ01000162.1/39-137        DE [subseq from] Escherichia coli strain KCJK8103 NODE_163_length_203_cov_8.631579, whole genome shotgun sequence
+#=GS NZ_SRWD01000177.1/165-67        DE [subseq from] Escherichia coli strain KCJK8128 NODE_177_length_3217_cov_8.722006, whole genome shotgun sequence
+#=GS NZ_SRWN01000063.1/18453-18355   DE [subseq from] Escherichia coli strain KCJK8315 NODE_63_length_23224_cov_23.019743, whole genome shotgun sequence
+#=GS NZ_SRWU01000124.1/130-32        DE [subseq from] Escherichia coli strain KCJK8373 NODE_124_length_382_cov_44.976471, whole genome shotgun sequence
+#=GS NZ_UEEG01000011.1/174044-173946 DE [subseq from] Escherichia coli isolate ST410_CP-Ec16, whole genome shotgun sequence
+#=GS NZ_SROS01000227.1/148-246       DE [subseq from] Escherichia coli strain KCJK7150 NODE_227_length_312_cov_2.654054, whole genome shotgun sequence
+#=GS NZ_RZCN01000040.1/29198-29100   DE [subseq from] Escherichia coli strain URMC_172 NODE_40_length_31054_cov_19.163870, whole genome shotgun sequence
+#=GS NZ_QAFI01000029.1/54178-54080   DE [subseq from] Escherichia coli strain F448 NODE_29_length_58885_cov_95.636305_pilon, whole genome shotgun sequence
+#=GS NZ_SHIB01000004.1/41-139        DE [subseq from] Escherichia coli strain EC_59 NODE_4_length_229114_cov_22.350537, whole genome shotgun sequence
+#=GS NZ_SRNF01000191.1/134-232       DE [subseq from] Escherichia coli strain BX1S57 NODE_191_length_527_cov_479.478, whole genome shotgun sequence
+#=GS NZ_SRNM01000091.1/319-221       DE [subseq from] Escherichia coli strain BX2S26 NODE_91_length_359_cov_89.0922, whole genome shotgun sequence
+#=GS NZ_SRNQ01000172.1/176-274       DE [subseq from] Escherichia coli strain BX2S46 NODE_172_length_569_cov_352.679, whole genome shotgun sequence
+#=GS NZ_SROL01000194.1/336-434       DE [subseq from] Escherichia coli strain KCJK7033 NODE_194_length_8368_cov_5.704283, whole genome shotgun sequence
+#=GS NZ_SROS01000082.1/11638-11540   DE [subseq from] Escherichia coli strain KCJK7150 NODE_82_length_13334_cov_5.259559, whole genome shotgun sequence
+#=GS NZ_SRVZ01000023.1/56265-56167   DE [subseq from] Escherichia coli strain KCJK8103 NODE_23_length_58151_cov_15.224028, whole genome shotgun sequence
+#=GS NZ_SRWD01000007.1/711-809       DE [subseq from] Escherichia coli strain KCJK8128 NODE_7_length_95356_cov_11.346565, whole genome shotgun sequence
+#=GS NZ_SRWU01000113.1/321-223       DE [subseq from] Escherichia coli strain KCJK8373 NODE_113_length_624_cov_46.366197, whole genome shotgun sequence
+#=GS NZ_SRVY01000151.1/304-402       DE [subseq from] Escherichia coli strain KCJK8081 NODE_151_length_1104_cov_10.470829, whole genome shotgun sequence
+#=GS NZ_SRWN01000097.1/3641-3739     DE [subseq from] Escherichia coli strain KCJK8315 NODE_97_length_4441_cov_18.146963, whole genome shotgun sequence
+#=GS NZ_QAFK01000006.1/3672-3770     DE [subseq from] Escherichia coli strain IMP 133 NODE_6_length_172233_cov_91.039261_pilon, whole genome shotgun sequence
+#=GS NZ_RROI01000008.1/45103-45005   DE [subseq from] Escherichia coli strain FWSEC0413 FWSEC0413_contig00008, whole genome shotgun sequence
+#=GS NZ_SROL01000415.1/184-282       DE [subseq from] Escherichia coli strain KCJK7033 NODE_415_length_348_cov_4.018100, whole genome shotgun sequence
+#=GS NZ_SRVR01000081.1/8890-8792     DE [subseq from] Escherichia coli strain KCJK8056 NODE_81_length_12967_cov_22.772352, whole genome shotgun sequence
+#=GS NZ_SRVV01000098.1/184-282       DE [subseq from] Escherichia coli strain KCJK8065 NODE_98_length_348_cov_15.262443, whole genome shotgun sequence
+#=GS NZ_SRWC01000059.1/26683-26585   DE [subseq from] Escherichia coli strain KCJK8124 NODE_59_length_27602_cov_15.113376, whole genome shotgun sequence
+#=GS NZ_SRWW01000101.1/228-130       DE [subseq from] Escherichia coli strain KCJK8397 NODE_101_length_1009_cov_31.461451, whole genome shotgun sequence
+#=GS NZ_SRWY01000028.1/53252-53154   DE [subseq from] Escherichia coli strain KCJK8354 NODE_28_length_55554_cov_7.983780, whole genome shotgun sequence
+#=GS NZ_SRWY01000138.1/62-160        DE [subseq from] Escherichia coli strain KCJK8354 NODE_138_length_226_cov_7.565657, whole genome shotgun sequence
+#=GS NZ_SRVZ01000004.1/55647-55549   DE [subseq from] Escherichia coli strain KCJK8103 NODE_4_length_321770_cov_13.805480, whole genome shotgun sequence
+#=GS NZ_SRWD01000251.1/488-583       DE [subseq from] Escherichia coli strain KCJK8128 NODE_251_length_583_cov_8.502193, whole genome shotgun sequence
+#=GS NZ_SROL01000129.1/13198-13104   DE [subseq from] Escherichia coli strain KCJK7033 NODE_129_length_13199_cov_5.662638, whole genome shotgun sequence
+#=GS NZ_SRWU01000061.1/2-96          DE [subseq from] Escherichia coli strain KCJK8373 NODE_61_length_12922_cov_16.168894, whole genome shotgun sequence
+#=GS NZ_SRWU01000127.1/365-271       DE [subseq from] Escherichia coli strain KCJK8373 NODE_127_length_366_cov_21.585774, whole genome shotgun sequence
+#=GS NZ_SRNF01000082.1/1574-1672     DE [subseq from] Escherichia coli strain BX1S57 NODE_82_length_4110_cov_161.41, whole genome shotgun sequence
+#=GS NZ_SRNQ01000084.1/1574-1672     DE [subseq from] Escherichia coli strain BX2S46 NODE_84_length_4110_cov_112.241, whole genome shotgun sequence
+#=GS NZ_SHIB01000036.1/285-383       DE [subseq from] Escherichia coli strain EC_59 NODE_36_length_41804_cov_22.753661, whole genome shotgun sequence
+#=GS NZ_SRVZ01000017.1/93489-93391   DE [subseq from] Escherichia coli strain KCJK8103 NODE_17_length_95919_cov_14.427270, whole genome shotgun sequence
+#=GS NZ_SRWY01000050.1/14104-14006   DE [subseq from] Escherichia coli strain KCJK8354 NODE_50_length_16594_cov_8.960041, whole genome shotgun sequence
+#=GS NZ_SROS01000047.1/34301-34203   DE [subseq from] Escherichia coli strain KCJK7150 NODE_47_length_35315_cov_6.978288, whole genome shotgun sequence
+#=GS NZ_RZCN01000068.1/1102-1004     DE [subseq from] Escherichia coli strain URMC_172 NODE_68_length_3570_cov_26.026430, whole genome shotgun sequence
+#=GS NZ_RZCP01000063.1/1102-1004     DE [subseq from] Escherichia coli strain URMC_174 NODE_63_length_3576_cov_22.634387, whole genome shotgun sequence
+#=GS NZ_RZDS01000102.1/1207-1109     DE [subseq from] Escherichia coli strain URMC_26 NODE_102_length_3681_cov_17.806978, whole genome shotgun sequence
+#=GS NZ_RROI01000024.1/41052-41150   DE [subseq from] Escherichia coli strain FWSEC0413 FWSEC0413_contig00025, whole genome shotgun sequence
+#=GS NZ_QAFI01000016.1/2-96          DE [subseq from] Escherichia coli strain F448 NODE_16_length_97708_cov_93.575389_pilon, whole genome shotgun sequence
+#=GS NZ_SRVZ01000100.1/317-223       DE [subseq from] Escherichia coli strain KCJK8103 NODE_101_length_318_cov_8.743455, whole genome shotgun sequence
+#=GS NZ_SRVT01000140.1/2-93          DE [subseq from] Escherichia coli strain KCJK8061 NODE_165_length_315_cov_13.521277, whole genome shotgun sequence
+#=GS NZ_SRVT01000155.1/346-255       DE [subseq from] Escherichia coli strain KCJK8061 NODE_191_length_347_cov_19.490909, whole genome shotgun sequence
+#=GS NZ_SRWD01000058.1/2-93          DE [subseq from] Escherichia coli strain KCJK8128 NODE_58_length_29133_cov_12.266566, whole genome shotgun sequence
+#=GS NZ_RZCL01000010.1/29425-29327   DE [subseq from] Escherichia coli strain URMC_170 NODE_10_length_194275_cov_20.738823, whole genome shotgun sequence
+#=GS NZ_RZCT01000009.1/156141-156239 DE [subseq from] Escherichia coli strain URMC_179 NODE_9_length_185428_cov_13.809391, whole genome shotgun sequence
+#=GS NZ_RZCX01000049.1/899-997       DE [subseq from] Escherichia coli strain URMC_183 NODE_49_length_30323_cov_25.860710, whole genome shotgun sequence
+#=GS NZ_SROF01000112.1/3913-4011     DE [subseq from] Escherichia coli strain KCJK6780 NODE_112_length_4077_cov_12.150633, whole genome shotgun sequence
+#=GS NZ_SHIB01000095.1/1738-1640     DE [subseq from] Escherichia coli strain EC_59 NODE_95_length_1913_cov_22.550654, whole genome shotgun sequence
+#=GS NZ_SRMX01000028.1/37518-37420   DE [subseq from] Escherichia coli strain BX1S14 NODE_28_length_37693_cov_101.462, whole genome shotgun sequence
+#=GS NZ_SRNF01000037.1/37518-37420   DE [subseq from] Escherichia coli strain BX1S57 NODE_37_length_38014_cov_147.546, whole genome shotgun sequence
+#=GS NZ_SRNM01000062.1/293-391       DE [subseq from] Escherichia coli strain BX2S26 NODE_62_length_1333_cov_112.807, whole genome shotgun sequence
+#=GS NZ_SRNQ01000038.1/37518-37420   DE [subseq from] Escherichia coli strain BX2S46 NODE_38_length_37693_cov_99.7364, whole genome shotgun sequence
+#=GS NZ_SROC01000131.1/91-189        DE [subseq from] Escherichia coli strain KCJK7684 NODE_131_length_11461_cov_7.136404, whole genome shotgun sequence
+#=GS NZ_SROF01000077.1/11882-11784   DE [subseq from] Escherichia coli strain KCJK6780 NODE_77_length_12216_cov_18.387791, whole genome shotgun sequence
+#=GS NZ_SRVT01000279.1/6938-6840     DE [subseq from] Escherichia coli strain KCJK8061 NODE_345_length_14747_cov_12.312449, whole genome shotgun sequence
+#=GS NZ_SRVV01000019.1/32021-32119   DE [subseq from] Escherichia coli strain KCJK8065 NODE_19_length_93788_cov_14.379838, whole genome shotgun sequence
+#=GS NZ_SRVZ01000014.1/2081-2179     DE [subseq from] Escherichia coli strain KCJK8103 NODE_14_length_112719_cov_14.069294, whole genome shotgun sequence
+#=GS NZ_SRWY01000035.1/37570-37472   DE [subseq from] Escherichia coli strain KCJK8354 NODE_35_length_38089_cov_8.184790, whole genome shotgun sequence
+#=GS NZ_UEEG01000034.1/37891-37793   DE [subseq from] Escherichia coli isolate ST410_CP-Ec16, whole genome shotgun sequence
+#=GS NZ_QAFI01000026.1/63046-62948   DE [subseq from] Escherichia coli strain F448 NODE_26_length_72161_cov_121.690119_pilon, whole genome shotgun sequence
+#=GS NZ_QAFK01000024.1/79277-79179   DE [subseq from] Escherichia coli strain IMP 133 NODE_24_length_83102_cov_83.046050_pilon, whole genome shotgun sequence
+#=GS NZ_RRNG01000020.1/92999-92901   DE [subseq from] Escherichia coli strain FWSEC0382 FWSEC0382_contig00020, whole genome shotgun sequence
+#=GS NZ_RRNO01000024.1/70909-70811   DE [subseq from] Escherichia coli strain FWSEC0390 FWSEC0390_contig00024, whole genome shotgun sequence
+#=GS NZ_RROS01000014.1/118326-118228 DE [subseq from] Escherichia coli strain FWSEC0423 FWSEC0423_contig00014, whole genome shotgun sequence
+#=GS NZ_SRMX01000027.1/41936-41838   DE [subseq from] Escherichia coli strain BX1S14 NODE_27_length_42993_cov_119.407, whole genome shotgun sequence
+#=GS NZ_SRNF01000034.1/42034-41936   DE [subseq from] Escherichia coli strain BX1S57 NODE_34_length_42167_cov_165.848, whole genome shotgun sequence
+#=GS NZ_SRNM01000028.1/293-391       DE [subseq from] Escherichia coli strain BX2S26 NODE_28_length_42103_cov_102.835, whole genome shotgun sequence
+#=GS NZ_SRNQ01000035.1/41811-41713   DE [subseq from] Escherichia coli strain BX2S46 NODE_35_length_41986_cov_111.252, whole genome shotgun sequence
+#=GS NZ_SROL01000115.1/955-1053      DE [subseq from] Escherichia coli strain KCJK7033 NODE_115_length_15090_cov_6.095101, whole genome shotgun sequence
+#=GS NZ_SROS01000079.1/14047-13949   DE [subseq from] Escherichia coli strain KCJK7150 NODE_79_length_15267_cov_6.323184, whole genome shotgun sequence
+#=GS NZ_SRVT01000033.1/253-351       DE [subseq from] Escherichia coli strain KCJK8061 NODE_39_length_5061_cov_15.819214, whole genome shotgun sequence
+#=GS NZ_SRVV01000046.1/14154-14056   DE [subseq from] Escherichia coli strain KCJK8065 NODE_46_length_16915_cov_14.831844, whole genome shotgun sequence
+#=GS NZ_SRVY01000055.1/29235-29137   DE [subseq from] Escherichia coli strain KCJK8081 NODE_55_length_29637_cov_16.033277, whole genome shotgun sequence
+#=GS NZ_SRWD01000100.1/14138-14040   DE [subseq from] Escherichia coli strain KCJK8128 NODE_100_length_14848_cov_12.129135, whole genome shotgun sequence
+#=GS NZ_SRWN01000056.1/29234-29136   DE [subseq from] Escherichia coli strain KCJK8315 NODE_56_length_29537_cov_22.714077, whole genome shotgun sequence
+#=GS NZ_SRWU01000074.1/4815-4717     DE [subseq from] Escherichia coli strain KCJK8373 NODE_74_length_5067_cov_20.507287, whole genome shotgun sequence
+#=GS NZ_RZCR01000012.1/1858-1760     DE [subseq from] Escherichia coli strain URMC_176 NODE_12_length_169983_cov_17.127537, whole genome shotgun sequence
+#=GS NZ_RROI01000012.1/28813-28715   DE [subseq from] Escherichia coli strain FWSEC0413 FWSEC0413_contig00012, whole genome shotgun sequence
+#=GS NZ_RZCP01000015.1/134773-134844 DE [subseq from] Escherichia coli strain URMC_174 NODE_15_length_134844_cov_16.966574, whole genome shotgun sequence
+#=GS NZ_RZDS01000013.1/72-1          DE [subseq from] Escherichia coli strain URMC_26 NODE_13_length_134844_cov_18.196011, whole genome shotgun sequence
+#=GS NZ_SROF01000158.1/1-60          DE [subseq from] Escherichia coli strain KCJK6780 NODE_158_length_627_cov_11.734000, whole genome shotgun sequence
+#=GS NZ_SROF01000170.1/330-271       DE [subseq from] Escherichia coli strain KCJK6780 NODE_170_length_330_cov_21.522167, whole genome shotgun sequence
+#=GS NZ_SRVV01000113.1/286-227       DE [subseq from] Escherichia coli strain KCJK8065 NODE_113_length_286_cov_16.930818, whole genome shotgun sequence
+#=GS NZ_SRVZ01000108.1/287-228       DE [subseq from] Escherichia coli strain KCJK8103 NODE_109_length_287_cov_11.787500, whole genome shotgun sequence
+#=GS NZ_SRWD01000245.1/645-586       DE [subseq from] Escherichia coli strain KCJK8128 NODE_245_length_645_cov_5.893822, whole genome shotgun sequence
+#=GS NZ_SRVT01000134.1/58-1          DE [subseq from] Escherichia coli strain KCJK8061 NODE_159_length_460_cov_17.279279, whole genome shotgun sequence
+#=GS NZ_SRVT01000227.1/488-545       DE [subseq from] Escherichia coli strain KCJK8061 NODE_275_length_545_cov_21.937799, whole genome shotgun sequence
+#=GS NZ_SKDC01000068.1/14013-13962   DE [subseq from] Escherichia coli strain 2015-1-136G NODE_68_length_14215_cov_28.3648_ID_19334, whole genome shotgun sequence
+#=GS NZ_SKDL01000015.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-120H NODE_15_length_128728_cov_29.1442_ID_18873, whole genome shotgun sequence
+#=GS NZ_SKDN01000015.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-113F NODE_15_length_128728_cov_46.9384_ID_17825, whole genome shotgun sequence
+#=GS NZ_SKDP01000015.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-105B NODE_15_length_128728_cov_36.9927_ID_18377, whole genome shotgun sequence
+#=GS NZ_SKDS01000037.1/211-262       DE [subseq from] Escherichia coli strain 2014-5-277B NODE_37_length_47295_cov_26.6302_ID_25050, whole genome shotgun sequence
+#=GS NZ_SKDU01000038.1/720-771       DE [subseq from] Escherichia coli strain 2013-3-279D NODE_38_length_47804_cov_42.4948_ID_25549, whole genome shotgun sequence
+#=GS NZ_SPAA01000013.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-110A NODE_13_length_128728_cov_42.608_ID_20551, whole genome shotgun sequence
+#=GS NZ_SPAB01000013.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-107C NODE_13_length_128728_cov_34.6657_ID_18113, whole genome shotgun sequence
+#=GS NZ_SPAF01000083.1/14056-14005   DE [subseq from] Escherichia coli strain 2015-1-97B NODE_83_length_14219_cov_14.9735_ID_32646, whole genome shotgun sequence
+#=GS NZ_SPAN01000014.1/47085-47034   DE [subseq from] Escherichia coli strain 2015-1-53A1 NODE_14_length_128728_cov_47.3611_ID_18409, whole genome shotgun sequence
+#=GS NZ_SPAP01000018.1/15749-15698   DE [subseq from] Escherichia coli strain 2015-1-48G NODE_18_length_97392_cov_39.6245_ID_28695, whole genome shotgun sequence
+#=GS NZ_SPAQ01000039.1/220-271       DE [subseq from] Escherichia coli strain 2014-5-288A NODE_39_length_47304_cov_27.9373_ID_23645, whole genome shotgun sequence
+#=GS NZ_SPAS01000033.1/326-377       DE [subseq from] Escherichia coli strain 2014-5-78J NODE_33_length_47410_cov_35.8622_ID_21541, whole genome shotgun sequence
+#=GS NZ_SPAV01000036.1/47085-47034   DE [subseq from] Escherichia coli strain 2013-3-86C NODE_36_length_47372_cov_34.8996_ID_18513, whole genome shotgun sequence
+#=GS NZ_SPKB01000041.1/288-339       DE [subseq from] Escherichia coli strain 2014-5-921H NODE_41_length_47372_cov_42.7064_ID_35186, whole genome shotgun sequence
+#=GS NZ_SPKG01000034.1/211-262       DE [subseq from] Escherichia coli strain 2015-1-140F NODE_34_length_47295_cov_31.4995_ID_19119, whole genome shotgun sequence
+
+NZ_QAFI01000026.1/64313-64215           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFI01000026.1/64313-64215   PP 7899*******************************************************************************************9985
+NZ_RRNG01000049.1/24057-23959           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RRNG01000049.1/24057-23959   PP 7899*******************************************************************************************9985
+NZ_RROS01000028.1/40125-40223           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RROS01000028.1/40125-40223   PP 7899*******************************************************************************************9985
+NZ_RROS01000037.1/2723-2821             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RROS01000037.1/2723-2821     PP 7899*******************************************************************************************9985
+NZ_RZCN01000025.1/76069-75971           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCN01000025.1/76069-75971   PP 7899*******************************************************************************************9985
+NZ_RZCP01000011.1/1575-1673             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCP01000011.1/1575-1673     PP 7899*******************************************************************************************9985
+NZ_RZDS01000018.1/100767-100669         AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZDS01000018.1/100767-100669 PP 7899*******************************************************************************************9985
+NZ_SRMX01000056.1/448-350               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRMX01000056.1/448-350       PP 7899*******************************************************************************************9985
+NZ_SRNM01000017.1/126243-126145         AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNM01000017.1/126243-126145 PP 7899*******************************************************************************************9985
+NZ_SROC01000737.1/91-189                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROC01000737.1/91-189        PP 7899*******************************************************************************************9985
+NZ_SROF01000046.1/33653-33555           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000046.1/33653-33555   PP 7899*******************************************************************************************9985
+NZ_SROF01000185.1/91-189                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000185.1/91-189        PP 7899*******************************************************************************************9985
+NZ_SROL01000346.1/165-67                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROL01000346.1/165-67        PP 7899*******************************************************************************************9985
+NZ_SRVT01000086.1/321-223               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000086.1/321-223       PP 7899*******************************************************************************************9985
+NZ_SRVT01000133.1/70-168                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000133.1/70-168        PP 7899*******************************************************************************************9985
+NZ_SRVV01000040.1/3269-3367             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000040.1/3269-3367     PP 7899*******************************************************************************************9985
+NZ_SRVV01000056.1/2293-2391             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000056.1/2293-2391     PP 7899*******************************************************************************************9985
+NZ_SRVY01000084.1/3114-3212             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVY01000084.1/3114-3212     PP 7899*******************************************************************************************9985
+NZ_SRVZ01000162.1/39-137                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000162.1/39-137        PP 7899*******************************************************************************************9985
+NZ_SRWD01000177.1/165-67                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWD01000177.1/165-67        PP 7899*******************************************************************************************9985
+NZ_SRWN01000063.1/18453-18355           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWN01000063.1/18453-18355   PP 7899*******************************************************************************************9985
+NZ_SRWU01000124.1/130-32                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWU01000124.1/130-32        PP 7899*******************************************************************************************9985
+NZ_UEEG01000011.1/174044-173946         AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_UEEG01000011.1/174044-173946 PP 7899*******************************************************************************************9985
+NZ_SROS01000227.1/148-246               AAGAATTAAATAATCCAGCGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROS01000227.1/148-246       PP 7899*******************************************************************************************9985
+NZ_RZCN01000040.1/29198-29100           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCACATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCN01000040.1/29198-29100   PP 7899*******************************************************************************************9985
+NZ_QAFI01000029.1/54178-54080           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFI01000029.1/54178-54080   PP 7899********************************************************************************************986
+NZ_SHIB01000004.1/41-139                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SHIB01000004.1/41-139        PP 7899********************************************************************************************986
+NZ_SRNF01000191.1/134-232               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNF01000191.1/134-232       PP 7899********************************************************************************************986
+NZ_SRNM01000091.1/319-221               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNM01000091.1/319-221       PP 7899********************************************************************************************986
+NZ_SRNQ01000172.1/176-274               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNQ01000172.1/176-274       PP 7899********************************************************************************************986
+NZ_SROL01000194.1/336-434               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROL01000194.1/336-434       PP 7899********************************************************************************************986
+NZ_SROS01000082.1/11638-11540           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROS01000082.1/11638-11540   PP 7899********************************************************************************************986
+NZ_SRVZ01000023.1/56265-56167           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000023.1/56265-56167   PP 7899********************************************************************************************986
+NZ_SRWD01000007.1/711-809               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWD01000007.1/711-809       PP 7899********************************************************************************************986
+NZ_SRWU01000113.1/321-223               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWU01000113.1/321-223       PP 7899********************************************************************************************986
+NZ_SRVY01000151.1/304-402               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCTGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVY01000151.1/304-402       PP 7899*******************************************************************************************9985
+NZ_SRWN01000097.1/3641-3739             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCTGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWN01000097.1/3641-3739     PP 7899*******************************************************************************************9985
+NZ_QAFK01000006.1/3672-3770             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFK01000006.1/3672-3770     PP 7899*******************************************************************************************9985
+NZ_RROI01000008.1/45103-45005           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RROI01000008.1/45103-45005   PP 7899*******************************************************************************************9985
+NZ_SROL01000415.1/184-282               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROL01000415.1/184-282       PP 7899*******************************************************************************************9985
+NZ_SRVR01000081.1/8890-8792             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVR01000081.1/8890-8792     PP 7899*******************************************************************************************9985
+NZ_SRVV01000098.1/184-282               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000098.1/184-282       PP 7899*******************************************************************************************9985
+NZ_SRWC01000059.1/26683-26585           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWC01000059.1/26683-26585   PP 7899*******************************************************************************************9985
+NZ_SRWW01000101.1/228-130               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWW01000101.1/228-130       PP 7899*******************************************************************************************9985
+NZ_SRWY01000028.1/53252-53154           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWY01000028.1/53252-53154   PP 7899*******************************************************************************************9985
+NZ_SRWY01000138.1/62-160                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWY01000138.1/62-160        PP 7899*******************************************************************************************9985
+NZ_SRVZ01000004.1/55647-55549           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATATCCCTGATG
+#=GR NZ_SRVZ01000004.1/55647-55549   PP 6899*******************************************************************************************9986
+NZ_SRWD01000251.1/488-583               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTG---
+#=GR NZ_SRWD01000251.1/488-583       PP 7899*****************************************************************************************986...
+NZ_SROL01000129.1/13198-13104           ----ATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROL01000129.1/13198-13104   PP ....7899***************************************************************************************9985
+NZ_SRWU01000061.1/2-96                  ----ATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWU01000061.1/2-96          PP ....7899***************************************************************************************9985
+NZ_SRWU01000127.1/365-271               ----ATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWU01000127.1/365-271       PP ....7899***************************************************************************************9985
+NZ_SRNF01000082.1/1574-1672             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGCCCCTGATG
+#=GR NZ_SRNF01000082.1/1574-1672     PP 7899*******************************************************************************************9986
+NZ_SRNQ01000084.1/1574-1672             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGCCCCTGATG
+#=GR NZ_SRNQ01000084.1/1574-1672     PP 7899*******************************************************************************************9986
+NZ_SHIB01000036.1/285-383               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SHIB01000036.1/285-383       PP 7899********************************************************************************************986
+NZ_SRVZ01000017.1/93489-93391           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000017.1/93489-93391   PP 7899********************************************************************************************986
+NZ_SRWY01000050.1/14104-14006           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWY01000050.1/14104-14006   PP 7899********************************************************************************************986
+NZ_SROS01000047.1/34301-34203           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCACATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROS01000047.1/34301-34203   PP 7899********************************************************************************************986
+NZ_RZCN01000068.1/1102-1004             AAGAATTAATTAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCN01000068.1/1102-1004     PP 7899*******************************************************************************************9985
+NZ_RZCP01000063.1/1102-1004             AAGAATTAATTAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCP01000063.1/1102-1004     PP 7899*******************************************************************************************9985
+NZ_RZDS01000102.1/1207-1109             AAGAATTAATTAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZDS01000102.1/1207-1109     PP 7899*******************************************************************************************9985
+NZ_RROI01000024.1/41052-41150           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGAAGTCCCTGATG
+#=GR NZ_RROI01000024.1/41052-41150   PP 6899*******************************************************************************************9986
+NZ_QAFI01000016.1/2-96                  ----ATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFI01000016.1/2-96          PP ....7899****************************************************************************************986
+NZ_SRVZ01000100.1/317-223               ----ATTAAATAATCCAGAGCATGACAGTTACGCAATCAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000100.1/317-223       PP ....7899****************************************************************************************986
+NZ_SRVT01000140.1/2-93                  -------AAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000140.1/2-93          PP .......7899************************************************************************************9985
+NZ_SRVT01000155.1/346-255               -------AAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000155.1/346-255       PP .......7899************************************************************************************9985
+NZ_SRWD01000058.1/2-93                  -------AAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWD01000058.1/2-93          PP .......7899************************************************************************************9985
+NZ_RZCL01000010.1/29425-29327           AAGAATTAAATAATCCAGAACATGACAGTTACGCCATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCL01000010.1/29425-29327   PP 7899********************************************************************************************986
+NZ_RZCT01000009.1/156141-156239         AAGAATTAAATAATCCAGAACATGACAGTTACGCCATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCT01000009.1/156141-156239 PP 7899********************************************************************************************986
+NZ_RZCX01000049.1/899-997               AAGAATTAAATAATCCAGAACATGACAGTTACGCCATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RZCX01000049.1/899-997       PP 7899********************************************************************************************986
+NZ_SROF01000112.1/3913-4011             AAGAATTAAATAATCCAGCGCATGACTGTTCCGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000112.1/3913-4011     PP 789********************************************************************************************9985
+NZ_SHIB01000095.1/1738-1640             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SHIB01000095.1/1738-1640     PP 7899*******************************************************************************************9985
+NZ_SRMX01000028.1/37518-37420           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRMX01000028.1/37518-37420   PP 7899*******************************************************************************************9985
+NZ_SRNF01000037.1/37518-37420           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNF01000037.1/37518-37420   PP 7899*******************************************************************************************9985
+NZ_SRNM01000062.1/293-391               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNM01000062.1/293-391       PP 7899*******************************************************************************************9985
+NZ_SRNQ01000038.1/37518-37420           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNQ01000038.1/37518-37420   PP 7899*******************************************************************************************9985
+NZ_SROC01000131.1/91-189                AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROC01000131.1/91-189        PP 7899*******************************************************************************************9985
+NZ_SROF01000077.1/11882-11784           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000077.1/11882-11784   PP 7899*******************************************************************************************9985
+NZ_SRVT01000279.1/6938-6840             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000279.1/6938-6840     PP 7899*******************************************************************************************9985
+NZ_SRVV01000019.1/32021-32119           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000019.1/32021-32119   PP 7899*******************************************************************************************9985
+NZ_SRVZ01000014.1/2081-2179             AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000014.1/2081-2179     PP 7899*******************************************************************************************9985
+NZ_SRWY01000035.1/37570-37472           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWY01000035.1/37570-37472   PP 7899*******************************************************************************************9985
+NZ_UEEG01000034.1/37891-37793           AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATTTGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTATTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_UEEG01000034.1/37891-37793   PP 7899*******************************************************************************************9985
+NZ_QAFI01000026.1/63046-62948           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFI01000026.1/63046-62948   PP 7899********************************************************************************************986
+NZ_QAFK01000024.1/79277-79179           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_QAFK01000024.1/79277-79179   PP 7899********************************************************************************************986
+NZ_RRNG01000020.1/92999-92901           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RRNG01000020.1/92999-92901   PP 7899********************************************************************************************986
+NZ_RRNO01000024.1/70909-70811           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RRNO01000024.1/70909-70811   PP 7899********************************************************************************************986
+NZ_RROS01000014.1/118326-118228         AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_RROS01000014.1/118326-118228 PP 7899********************************************************************************************986
+NZ_SRMX01000027.1/41936-41838           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRMX01000027.1/41936-41838   PP 7899********************************************************************************************986
+NZ_SRNF01000034.1/42034-41936           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNF01000034.1/42034-41936   PP 7899********************************************************************************************986
+NZ_SRNM01000028.1/293-391               AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNM01000028.1/293-391       PP 7899********************************************************************************************986
+NZ_SRNQ01000035.1/41811-41713           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRNQ01000035.1/41811-41713   PP 7899********************************************************************************************986
+NZ_SROL01000115.1/955-1053              AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROL01000115.1/955-1053      PP 7899********************************************************************************************986
+NZ_SROS01000079.1/14047-13949           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROS01000079.1/14047-13949   PP 7899********************************************************************************************986
+NZ_SRVT01000033.1/253-351               AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVT01000033.1/253-351       PP 7899********************************************************************************************986
+NZ_SRVV01000046.1/14154-14056           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000046.1/14154-14056   PP 7899********************************************************************************************986
+NZ_SRVY01000055.1/29235-29137           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVY01000055.1/29235-29137   PP 7899********************************************************************************************986
+NZ_SRWD01000100.1/14138-14040           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWD01000100.1/14138-14040   PP 7899********************************************************************************************986
+NZ_SRWN01000056.1/29234-29136           AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWN01000056.1/29234-29136   PP 7899********************************************************************************************986
+NZ_SRWU01000074.1/4815-4717             AAGAATTAAATAATCCCAAGCATGACAGTTACGCAATTAGTGAAAAGAGTCACGGCAGAGAAGAAACCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWU01000074.1/4815-4717     PP 7899********************************************************************************************986
+NZ_RZCR01000012.1/1858-1760             AAGAATTAAATAATCCAGAGCATGACAGTTATGCAATGAGTGAAAAGCGTCATGGCAGAGAAGAAATTCGTCTTCACATTGTCTGCGATATCCCTGATG
+#=GR NZ_RZCR01000012.1/1858-1760     PP 7899*******************************************************************************************9985
+NZ_RROI01000012.1/28813-28715           AAGAATTAAATAATCCAAAACATGACAGTTACGCAATTAGTGAAAAGAGGCACGGCAGAGACGATGTCCGTCTTCATATTGTTTGAGATGCTCCTGATG
+#=GR NZ_RROI01000012.1/28813-28715   PP 7899*******************************************************************************************9985
+NZ_RZCP01000015.1/134773-134844         AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTC---------------------------
+#=GR NZ_RZCP01000015.1/134773-134844 PP 6799*****************************************************************986...........................
+NZ_RZDS01000013.1/72-1                  AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAGAGAAGAAATCCGTC---------------------------
+#=GR NZ_RZDS01000013.1/72-1          PP 6799*****************************************************************986...........................
+NZ_SROF01000158.1/1-60                  ---------------------------------------GTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000158.1/1-60          PP .......................................5899****************************************************9985
+NZ_SROF01000170.1/330-271               ---------------------------------------GTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SROF01000170.1/330-271       PP .......................................5899****************************************************9985
+NZ_SRVV01000113.1/286-227               ---------------------------------------GTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVV01000113.1/286-227       PP .......................................5899****************************************************9985
+NZ_SRVZ01000108.1/287-228               ---------------------------------------GTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRVZ01000108.1/287-228       PP .......................................5899****************************************************9985
+NZ_SRWD01000245.1/645-586               ---------------------------------------GTGAAAAGAGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTCCCTGATG
+#=GR NZ_SRWD01000245.1/645-586       PP .......................................5899****************************************************9985
+NZ_SRVT01000134.1/58-1                  AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAG-----------------------------------------
+#=GR NZ_SRVT01000134.1/58-1          PP 6899***************************************************975.........................................
+NZ_SRVT01000227.1/488-545               AAGAATTAAATAATCCAGAGCATGACAGTTACGCAATGAGTGAAAAGAGTCACGGCAG-----------------------------------------
+#=GR NZ_SRVT01000227.1/488-545       PP 6899***************************************************975.........................................
+NZ_SKDC01000068.1/14013-13962           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDC01000068.1/14013-13962   PP ...............................................799*********************************************9975
+NZ_SKDL01000015.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDL01000015.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SKDN01000015.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDN01000015.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SKDP01000015.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDP01000015.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SKDS01000037.1/211-262               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDS01000037.1/211-262       PP ...............................................799*********************************************9975
+NZ_SKDU01000038.1/720-771               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SKDU01000038.1/720-771       PP ...............................................799*********************************************9975
+NZ_SPAA01000013.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAA01000013.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SPAB01000013.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAB01000013.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SPAF01000083.1/14056-14005           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAF01000083.1/14056-14005   PP ...............................................799*********************************************9975
+NZ_SPAN01000014.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAN01000014.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SPAP01000018.1/15749-15698           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAP01000018.1/15749-15698   PP ...............................................799*********************************************9975
+NZ_SPAQ01000039.1/220-271               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAQ01000039.1/220-271       PP ...............................................799*********************************************9975
+NZ_SPAS01000033.1/326-377               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAS01000033.1/326-377       PP ...............................................799*********************************************9975
+NZ_SPAV01000036.1/47085-47034           -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPAV01000036.1/47085-47034   PP ...............................................799*********************************************9975
+NZ_SPKB01000041.1/288-339               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPKB01000041.1/288-339       PP ...............................................799*********************************************9975
+NZ_SPKG01000034.1/211-262               -----------------------------------------------AGTCACGGCAGAGAAGAAATCCGTCTTCATATTGTTTGCGATGTTCCTGATG
+#=GR NZ_SPKG01000034.1/211-262       PP ...............................................799*********************************************9975
+#=GC PP_cons                            7899*******************************************************************************************9985
+#=GC RF                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
