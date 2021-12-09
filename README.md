@@ -1,5 +1,5 @@
-#### PRF Search
-### By Molly Sacks
+# PRF Search
+## By Molly Sacks
 
 This codebase allows users to search through a bacterial genome to find potential -1 progammed ribosomal frameshifting events.
 Currently, this can be run locally with small queries (<50 cDNAs). Cloud support is being added soon!
