@@ -7,25 +7,7 @@ Currently, this can be run locally with small queries (<50 cDNAs). Cloud support
 To run this code, you will need working installations of:
 1. hmmer
 2. RScape
-3. python3 and packages:
-
-  a. argparse
-  
-  b. os
-  
-  c. datetime
-  
-  d. pandas
-  
-  f. shutil
-  
-  g. json
-  
-  h. RNA (python wrapper for ViennaRNA)
-  
-  i. localcider
-  
-  j. Bio.Seq (I used Bioconda for this)
+3. python3 and packages: argparse, os, datetime, pandas, shutil, json, RNA (python wrapper for ViennaRNA), localcider, & Bio.Seq (I used Bioconda for this)
 
 Any recent/ stable release should work.
 
